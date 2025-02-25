@@ -37,9 +37,7 @@ controlsAndInput.js file) complete `this.mousePressed()`.
   find the method which does this). When you have called this method
   clicking the playback button should start the music and display a
   visualisation.
-- If the click isn’t on the playback button toggle the display between
-  window and fullscreen (check out the p5.js documentation on how to
-  do this.)
+- If the click isn’t on the playback button, toggle the display between window and fullscreen. Refer to the [p5.js documentation](https://p5js.org/reference/#/p5/fullscreen) for guidance on how to implement this functionality.
 
 #### Visualisation menu [2 marks]
 
@@ -70,6 +68,7 @@ by the amplitude value for that frequency.
 
 - Change the colour of each bar such that it gradually changes from
   green to red based on the amplitude value [2 marks]. For example
+
   - An amplitude value of 0 the colour values are R:0, G:255 and B:0.
   - An amplitude value of 127 colour values are R:127, G:127 and B:0
   - An amplitude value of 255 colour values are R:255, G:0 and B: 0
